@@ -7,6 +7,7 @@ to double check.
 
 Example usuage:
 python test.py tests/web-comp30023-index.txt
+
 Note most of these are pointing to the web1.comp30023 host which can only be accessed on the vms, so you have to push
 this over there with your crawler code
 
@@ -21,6 +22,7 @@ is the where the crawler goes first.
 
 Currently it only:
 Checks that you printed out the same absolute url as the test case
+
 Do not have any duplicate url (however does not say if you printed out a relative url that is the same as an absolute)
 
 What it does not currently do:
